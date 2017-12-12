@@ -370,7 +370,7 @@ Full-Width Styles
 .project_link a.hover,
 .project_link a:hover {
   text-decoration : none;
-  background: #000;
+  background: #000000;
   color: #fff;
 }
 
