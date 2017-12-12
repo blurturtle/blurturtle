@@ -258,6 +258,12 @@ form {
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
+.a:link,
+.a:visited,
+.a:hover,
+.a:active{
+  text-decoration : none;
+}
 
 .outer {
   width: 100%;
@@ -369,13 +375,11 @@ Full-Width Styles
 
 .project_link a.hover,
 .project_link a:hover {
-  text-decoration : none;
   background: #000000;
   color: #fff;
 }
 
 .project_link a:active {
-  text-decoration : none;
   background: #333;
   color: #fff;
 }
