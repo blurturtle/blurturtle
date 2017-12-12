@@ -368,7 +368,20 @@ Full-Width Styles
   background: #212121;
 }
 
+.project_link a.hover,
+.project_link a:hover {
+  background: #000;
+  color: #fff;
+}
 
+.project_link a:active {
+  background: #333;
+  color: #fff;
+}
+
+.project_link_active{
+  color: rgb(41, 41, 41);
+}
 
 /*******************************************************************************
 Small Device Styles
